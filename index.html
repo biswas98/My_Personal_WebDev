@@ -4,9 +4,34 @@
 <head>
     <meta charset="utf-8">
     <title>Namaste</title>
+
+    <!-- Below this is called "Internal CSS" which is used for just one page it is not efficient to use Internal CSS in Multipage project because in that case we have to write the <style> code again and again in all the pages. -->
+    <style>
+        body {
+            background-color: #D1D1D1;
+        }
+
+        hr {
+            border-style: none;
+            border-top-style: dotted;
+            border-width: 7px;
+            border-color: #789395;
+            height: 0px;
+        /*  width: 70px  */
+            width: 30%;
+    
+        }
+
+    </style>
+
 </head>
 
+<!--
+<body style="background-color: #D1D1D1;">  this is Inline CSS or Injecting CSS code
+-->
+
 <body>
+
     <center>
         <!-- This is ex of <img> tag where we have image linked through Internet
 
@@ -31,7 +56,12 @@
         <a href="contact-me.html">Contact</a>
 
     </center>
-    <hr size="2" noshade>
+    <!-- 
+        ex-
+
+            <hr size="2" noshade>
+     -->
+    <hr>
     <br>
 
     <!--This is <ul> tag which is unordered list-->
@@ -58,7 +88,7 @@
         </ul>
         <li>Travelling</li>
     </ol>
-    <hr size="2" noshade>
+    <hr>
     <br>
 
     <center>
@@ -105,7 +135,7 @@
         <a href="Update-index.html"><strong>New Index</strong></a>
     </center>
 
-    <hr size="2" noshade>
+    <hr>
 
     <h2><u>Skills</u></h2>
 
@@ -161,7 +191,7 @@
         </tr>
     </table>
 
-    <hr size="2" noshade="">
+    <hr>
 
     <!-- Studing About HTMl Forms using <form> tag
     
@@ -171,8 +201,41 @@
     <center>
         <a href="Form_inputs_Prac.html"><strong>All Input Types of form</strong></a>
     </center>
-    
-    
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <!-- Now from here we are going to learn about "CSS" -->
+     
+    <!-- 
+         1. Inline CSS means writting CSS code inside a tag as an attribute. This is also called "injecting CSS code in our html tag/element".
+
+        ex-
+
+            <body style="background-color: red;">
+            
+            </bbody>
+    -->
+        
+        
+    <!-- 
+        2. Next is "Internal CSS" which means we can use CSS for the whole program by using <style>...</style> tag inside the <head> of the HTML program and after that we can declare what ever style we want inside by just using that tag.
+                
+                ex-
+                
+                <head>
+                    <style>
+                        
+                        body{
+                            background-style: #JD3IJ4;
+                        }
+                        
+                    </style>
+                </head> 
+     -->
+     
+
 </body>
 
 </html>
